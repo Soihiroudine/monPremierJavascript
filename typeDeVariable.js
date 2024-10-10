@@ -26,7 +26,15 @@ alert(monExempleDeTableau[2]);
 alert(monExempleDeTableau[3]);
 alert(monExempleDeTableau[4]);
 
-alert("La " + monExempleDeTableau[0] + " est " + monExempleDeTableau[2] +
-     " fois plus delicieuse que la " + monExempleDeTableau[1] + ". Ce que " + monExempleDeTableau[4] + " a dit est " + monExempleDeTableau[3] + ".");
+alert("La " + monExempleDeTableau[0] + " est " + monExempleDeTableau[2] 
+     + " fois plus delicieuse que la " + monExempleDeTableau[1] + ". Ce que " 
+     + monExempleDeTableau[4] + " a dit est " + monExempleDeTableau[3] + ".");
 
 alert("FIN DE TABLEAU .");
+
+
+// Objet 
+/**
+ * 
+ * * */
+
