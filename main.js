@@ -30,4 +30,25 @@ const pays = "Mayotte";
 
 // La concatenation
 let bienvenu = "Bienvenu " + nom + ", vous etes à " + pays + " et vous habitez à " + village;
-alert(bienvenu);
+// alert(bienvenu);
+
+/**
+ * Choix entre appostrophe ou guillemet
+**/
+
+// Methode 1 : Utilisation de l'appostrophe
+let adresse = '23 pomme de pain de la ruche';
+
+/**
+ * Methode pour échaper l'appostrophe
+ * Utilisation de l'anti-slache : " \ "
+ */ 
+let quartier = 'M\'tsahara';
+let aCote = 'M\'tsamboro est à côté d\'Acoua';
+// alert(aCote);
+
+let aAcoua = "M'tsamboro est à côté d'Acoua";
+alert(aAcoua);
+
+// Methode 2 : Utilisation de guillemet 
+let guillemet = "Ceci est un guillet";
