@@ -20,7 +20,6 @@ let prix2 = addition(40, 43)
 // alert(prix2);
 
 
-
 /**
  * L'objet Date() permet de recuperer la date actuelle
  * 
