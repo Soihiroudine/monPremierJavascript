@@ -31,24 +31,23 @@
     Si la note est 18, on affiche très bien
 */
 
+// if(note < 8) {
+//     console.log("Insufisant");
+// } else if (note >= 10 && note < 12) {
+//     console.log("moyen");
+// } else if (note >= 12 && note < 15) {
+//     console.log("Assez-bien");
+// } else if (note >= 15 && note < 18) {
+//     console.log("Bien");
+// } else {
+//     console.log("Très bien");
+// }
 
-let note = prompt("La note : ");
+// let bac = true;
+let laNote = 20;
 
-if(note == 5) {
-    alert("Insufisant");
-} 
-if (note == 10) {
-    alert("moyen");
-}
-
-if (note == 12) {
-    alert("Assez-bien");
-}
-
-if (note == 15) {
-    alert("Bien");
-}
-
-if (note == 18){
-    alert("Très bien");
+if (laNote > 10) {
+    console.log("Bravos, Vous etes admis !");
+} else {
+    console.log("Désoler vous nous ne pouvons pas vous prendre !");
 }
