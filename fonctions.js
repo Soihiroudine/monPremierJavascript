@@ -36,10 +36,10 @@ function agePersonne(anneeNaissance, anneeActuelle) {
 // Appelle des fonctions
 let person1Age = age(2003);
 
-// alert("Perso1 a " + person1Age + " ans.");
+// console.log("Perso1 a " + person1Age + " ans.");
 
 let agePerso2 = agePersonne(2004, 2024);
-// alert("Il a actuellement " + agePerso2 + " ans.");
+// console.log("Il a actuellement " + agePerso2 + " ans.");
 
 // Fonction pour multiplier deux chiffres ou deux nombres entier
 

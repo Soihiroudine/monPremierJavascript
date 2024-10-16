@@ -26,17 +26,17 @@ let deuxMots = "deux" + "trois"; // result : "deuxtrois"
  * 
  *  */
 let quinze = 20 - 5; // result : 15
-// alert(quinze);
+// console.log(quinze);
 
 let moinsUN = 60 - 61; // result : -1
-// alert(moinsUN);
+// console.log(moinsUN);
 
 /**
  *      MULTIPLICATION : *
  * 
  * */
 let cent = 50 * 2; // result : 100
-// alert(" 50 * 2 " + cent);
+// console.log(" 50 * 2 " + cent);
 
 
 /**
@@ -45,13 +45,13 @@ let cent = 50 * 2; // result : 100
   */
 
 let cinq = 10 / 2; // result : 5
-// alert("10 / 2 = " + cinq);
+// console.log("10 / 2 = " + cinq);
 
 let testD = 10 / 3;
-alert(testD);
+console.log(testD);
 
 let Dtest = 10.0 / 2.21;
-// alert(Dtest);
+// console.log(Dtest);
 
 
 /**
@@ -62,7 +62,7 @@ let Dtest = 10.0 / 2.21;
  * **/
 
 let reste = 10 % 3;
-alert(reste);
+console.log(reste);
 
 /**
  * 
@@ -87,13 +87,13 @@ let variable = "valeur";
 **/
 
 let comparer = cent == cinq; // 100 = 5 ? result : false
-alert("Est ce que 100 est égal à 5, " + comparer);
+console.log("Est ce que 100 est égal à 5, " + comparer);
 
 let douzeESinple = 12 == "12";
 let douzeEDouble = 12 === "12";
 
-alert("Premier douze : " + douzeESinple); // result : true
-alert("Deuxieme douze : " + douzeEDouble); // result : false
+console.log("Premier douze : " + douzeESinple); // result : true
+console.log("Deuxieme douze : " + douzeEDouble); // result : false
 
 /**
  * 
@@ -105,4 +105,4 @@ alert("Deuxieme douze : " + douzeEDouble); // result : false
  */
 
 let centDifferentCinq = cent != cinq;
-alert("Est ce que 100 est different de 5, " + centDifferentCinq);
+console.log("Est ce que 100 est different de 5, " + centDifferentCinq);

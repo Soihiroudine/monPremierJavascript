@@ -15,11 +15,11 @@
 
 
 // if (age >= 18) {
-//     alert("Notre personnage est majeur ! Tu as " + age + " ans.");
-// }//else { alert("il est mineur"); }
+//     console.log("Notre personnage est majeur ! Tu as " + age + " ans.");
+// }//else { console.log("il est mineur"); }
 
 // if(age < 18) {
-//     alert("Tu es mineur ! Tu as " + age + " ans.")
+//     console.log("Tu es mineur ! Tu as " + age + " ans.")
 // }
 
 // ------- Travail sur les notes -------

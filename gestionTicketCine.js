@@ -27,10 +27,9 @@ Vérifiez le résultat avec un console.log.
 let film = {
     nom : "Koungou",
     dure : 90,
-    anneeSortie : 2024,
-    nationalite : "Français",
-    langue : "français"
+    anneeSortie : 2024
 }
+
 
 // Creation de notre ticket 
 let ticket = {
@@ -52,3 +51,21 @@ console.log(texteAffichage);
 
 // On va maintenant vouloir faire en sorte que l'utilisateur puisse avec le navigateur
 // Pouvoir afficher 
+
+
+// Teste de objet avec javascript
+// function film1(nom, dure, annee) {
+//     this.nom = nom;
+//     this.dure = dure;
+//     this.annee;
+// }
+
+// function ticket1(nomFilm, prix, numeroSalle) {
+//     this.nomFilm = nomFilm;
+//     this.prix = prix;
+//     this.numeroSalle = numeroSalle;
+// }
+
+// Va contenir le nombre de film
+// let listeFilm = []
+

@@ -25,12 +25,12 @@ const pays = "Mayotte";
 // const myHeading = document.querySelector("h1");
 // myHeading.textContent = "Hello world!";
 
-// alert("Le vidéo projecteur d'Acoua");
-// alert(carton);
+// console.log("Le vidéo projecteur d'Acoua");
+// console.log(carton);
 
 // La concatenation
 let bienvenu = "Bienvenu " + nom + ", vous etes à " + pays + " et vous habitez à " + village;
-// alert(bienvenu);
+// console.log(bienvenu);
 
 /**
  * Choix entre appostrophe ou guillemet
@@ -45,10 +45,10 @@ let adresse = '23 pomme de pain de la ruche';
  */ 
 let quartier = 'M\'tsahara';
 let aCote = 'M\'tsamboro est à côté d\'Acoua';
-// alert(aCote);
+// console.log(aCote);
 
 let aAcoua = "M'tsamboro est à côté d'Acoua";
-alert(aAcoua);
+console.log(aAcoua);
 
 // Methode 2 : Utilisation de guillemet 
 let guillemet = "Ceci est un guillet";
