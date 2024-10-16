@@ -7,7 +7,7 @@
 */
 
 // Classification des film en fonction du tranche d'age 
-let filmEnfant = "Le Roi Lyon";
+let filmEnfant = "Le Roi Lion";
 let filmAdo = "Titanic";
 let filmMajorite = "Rambo 2";           
 

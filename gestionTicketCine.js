@@ -23,9 +23,18 @@ Créez une variable texteAffichage qui contient cette phrase, avec NOM, NOMDEFIL
 Vérifiez le résultat avec un console.log.
 */
 
+// Description du film
+let film = {
+    nom : "Koungou",
+    dure : 90,
+    anneeSortie : 2024,
+    nationalite : "Français",
+    langue : "français"
+}
+
 // Creation de notre ticket 
 let ticket = {
-    nomFilm : "Koungou",
+    nomFilm : film.nom,
     prix : 10,
     numeroSalle : 2
 }
@@ -40,3 +49,6 @@ console.log("Bonjour " + nom + ", votre film " + ticket.nomFilm + " est en salle
 let texteAffichage = "Bonjour " + nom + ", votre film " + ticket.nomFilm + " est en salle " + ticket.numeroSalle + ".";
 
 console.log(texteAffichage);
+
+// On va maintenant vouloir faire en sorte que l'utilisateur puisse avec le navigateur
+// Pouvoir afficher 
