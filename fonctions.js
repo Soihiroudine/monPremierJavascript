@@ -1,4 +1,4 @@
-// FONCTIONS
+// ------- FONCTIONS -------
 // Ce Sont des opérations qui effectuent des opérations et retourne un resulthat
 // Avantage : Peut être réutiliser plusieurs fois
 

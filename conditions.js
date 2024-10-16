@@ -1,4 +1,4 @@
-// Travail sur les conditions
+// ------- Travail sur les conditions -------
 
 /**
  * la condition s'applique si elle est vrai
@@ -22,7 +22,7 @@
 //     alert("Tu es mineur ! Tu as " + age + " ans.")
 // }
 
-// Travail sur les notes
+// ------- Travail sur les notes -------
 
 /*  Si la note est 5, on affiche insuffisant
     Si la note est 10, on affiche moyen
