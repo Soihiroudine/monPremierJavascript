@@ -1,0 +1,12 @@
+/* * {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+#paragraphe1 {
+    font-weight: bold;
+}
+
+#paragraphe1 span {
+    background-color: #9dcc36;
+}
