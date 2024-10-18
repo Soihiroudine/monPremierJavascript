@@ -1,38 +1,6 @@
 // Manipulation du dom
 
 // Selectionner un element
-document.head // Recupère l'element head
-
-// let header = document.createElement("header");
-// let h1 = document.createElement("h1");
-
-// h1.innerHTML = "Mon h1 créer a apartir de javascript";
-// header.appendChild(h1);
-// document.body.appendChild(header);
-// console.log(document.title);
-
-// let ajout = document.createElement("button");
-// ajout.innerHTML = "AJOUT";
-
-// let enleve = document.createElement("button");
-// enleve.innerHTML = "ENLEVE";
-
-// document.body.appendChild(ajout);
-// document.body.appendChild(enleve);
-
-// let n = 0;
-
-// ajout.addEventListener("click", () => {
-//     n++;
-//     console.log("PLUS 1, maintenant " + n + " .");
-// });
-
-// enleve.addEventListener("click", () => {
-//     n--;
-//     console.log("MOINS 1, maintenant " + n + " .");
-// });
-
-
 
 let test = document.querySelector("#pomme");
 console.log(test);
@@ -50,3 +18,35 @@ let para = document.querySelector("#paragraphe1");
 let monSpan = document.querySelector("#paragraphe span");
 
 console.log("Le span ", monSpan);
+
+// Modification de notre element du dom
+
+// code de teste : img
+let elementImage = document.querySelector("#premiereImage");
+elementImage.setAttribute("class", "photoModifiee");
+
+elementImage.setAttribute("alt", "Mon image doit s'afficher");
+
+elementImage.src = "image/cond.png";
+
+// Ajout d'une classe
+elementImage.classList.add("nouvelleClasse");
+
+// console.log("ajout nouvelle classe :", elementImage);
+
+// Suppression d'une classe
+elementImage.classList.remove("photo");
+
+
+// Créer un nouvel element dans la page
+// use createElement()
+
+let nouveauDiv = document.createElement("div");
+let partieH3 = document.createElement("h3");
+partieH3.textContent = "Ceci est un texte";
+console.log(partieH3);
+
+nouveauDiv.appendChild(partieH3);
+let body = document.querySelector("body");
+body.appendChild(nouveauDiv);
+
